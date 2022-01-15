@@ -20,7 +20,7 @@ var fight = function() {
     if (enemyHealth <= 0) {
         window.alert(enemyName + " has died!");
     } else {
-        window.alert(enemyName + " still has" + enemyHealth + " health left.");
+        window.alert(enemyName + " still has " + enemyHealth + " health left.");
     }
     // Subtract the value of `enemyAttack` from the value of `playerHealth` and use that result to update the value in the `playerHealth` variable.
     playerHealth = playerHealth - enemyAttack;
